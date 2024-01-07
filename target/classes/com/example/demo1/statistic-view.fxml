@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo1.StatisticController" prefHeight="600.0" prefWidth="800.0"
+            >
+    <TableView
+            fx:id="tableView" prefHeight="600" prefWidth="400.0">
+
+        <columns>
+            <TableColumn text = 'Y Coordinate' prefWidth="200" fx:id="yColumn">
+            </TableColumn>
+            <TableColumn text="X Coordinate" prefWidth="200" fx:id="xColumn">
+            </TableColumn>
+        </columns>
+    </TableView>
+</AnchorPane>

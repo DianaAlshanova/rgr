@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <Button fx:id="buttonStat" prefHeight="20" prefWidth="80" text="Statistic">
+
+    </Button>
+   <Button fx:id="plotButton" layoutX="765.0" layoutY="-1.0" mnemonicParsing="false" text="Plot" />
+   <Button fx:id="velocityPlotButton" layoutY="574.0" mnemonicParsing="false" text="Velocity plot" />
+</AnchorPane>
